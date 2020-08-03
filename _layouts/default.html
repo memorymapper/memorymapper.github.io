@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>{{ page.title }}</title>
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;1,100&display=swap" rel="stylesheet">
+
+        <!-- Bootstrap CDN -->
+        <!-- CSS only -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <!-- Custom Styles -->
+        <link rel="stylesheet" href="/assets/css/styles.css">
+
+
+    </head>
+    <body>
+        
+        <div class="container-fluid memorymapper_header">
+            <h1 class="text-hide memorymapper_logo">{{ page.title }}</h1>
+            <br />
+        </div>
+        <div class="jumbotron jumbotron-fluid bg">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-3">
+                        <img class="img-fluid" src="/assets/img/screen-mockups.png" alt="Memory Map Toolkit Mockup">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            {{ content }}            
+        </div>
+
+        {% include projects.html %}
+        <footer>
+            <div class="container">
+                <hr />
+                <div class="row justify-content-center">
+                    <div class="col-2">
+                        <img src="assets/img/CASA_logo.png" alt="CASA logo" class="img-fluid" style="max-width: 52%;"/>
+                    </div>
+                    <div class="col-2">
+                        <img src="assets/img/bartlett_logo.gif" alt="Bartlett logo"  class="img-fluid" />
+                    </div>
+                    <div class="col-2">
+                        <img src="assets/img/ucl_logo.gif" alt="UCL logo"  class="img-fluid" />
+                    </div>
+                </div>
+                <div class="row">
+                    <p><br /><small>The Memory Map team gratefully acknowledge the Bartlett Materialisation Grant which made the development of the Memory Map Toolkit possible. This project is an extension of research initially conducted as part of the AHRC-funded Survey of London Whitechapel Initiative.</small></p>
+                    <p><small>&copy; 2020 University College London.</small></p>
+                </div>
+            </div>
+            <br />
+        </footer>
+
+        <!-- JS, Popper.js, and jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+    </body>
+</html>

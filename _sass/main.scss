@@ -1,0 +1,53 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    background-color: white;
+    color: black;
+    font-size: 1.25rem;
+}
+
+.lead {
+    font-weight: 200;
+    font-size: 1.4rem;
+}
+
+.memorymapper_header {
+    background-color: #0c0825;
+    padding-top: 2rem;
+}
+
+.bg {
+    background-image: url('/assets/img/memorymapper-header.png');
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+}
+
+.project_header {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.memorymapper_logo {
+    background-image: url('/assets/img/memorymapper-logo.svg');
+    width: 400px;
+    height: 50px;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+hr {
+    border-top: 1px solid #dadada;
+}
+
+.btn-outline-primary {
+    border-color: #ea39f7;
+    color: #ea38f7;
+}
+
+.btn-outline-primary:hover {
+    background-color: #ea39f7;
+    border-color: #ea39f7;
+}
