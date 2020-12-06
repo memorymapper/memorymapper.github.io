@@ -41,14 +41,14 @@ title: Memory Mapper
 
 <div class="container">
   <div class="row justify-content-md-center">
-    <div class="col-4 px-md-5">
+    <div class="col-md-4 px-md-5">
         <img src="assets/img/duncan_hay.jpg" alt="Duncan Hay" class="img-fluid rounded" />
         <h3>Dr Duncan Hay</h3>
         <h4 class="small">Project and Technical Lead</h4>
         <h4 class="small">d.hay@ucl.ac.uk</h4>
     </div>
 
-    <div class="col-4 px-md-5">
+    <div class="col-md-4 px-md-5">
         <img src="assets/img/leah_lovett.jpg" alt="Leah Lovett" class="img-fluid rounded" />
         <h3>Dr Leah Lovett</h3>
         <h4 class="small">Engagement and Partnerships Lead</h4>
