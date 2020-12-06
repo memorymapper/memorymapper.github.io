@@ -19,7 +19,6 @@
 
     </head>
     <body>
-        
         <div class="container-fluid memorymapper_header">
             <h1 class="text-hide memorymapper_logo">{{ page.title }}</h1>
             <br />
@@ -33,10 +32,20 @@
                 </div>
             </div>
         </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <div class="navbar-nav justify-content-center">
+                    <a class="nav-item nav-link" href="#features">Features</a>
+                    <a class="nav-item nav-link" href="#download">Download</a>
+                    <a class="nav-item nav-link" href="#team">Team</a>
+                    <a class="nav-item nav-link" href="#projects">Created with Memory Mapper</a>
+                </div>
+            </div>
+        </nav>
         <div class="container">
             {{ content }}            
         </div>
-
+        <a id="projects"></a>
         {% include projects.html %}
         <footer>
             <div class="container">
