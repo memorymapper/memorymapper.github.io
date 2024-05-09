@@ -2,11 +2,11 @@
   link: https://jewisheastendmemorymap.org
   thumbnail: /assets/img/jeemm.jpg
   strapline: Our first Memory Map, the Memory Map of the Jewish East End aims to be a lasting document of both the history and memory traces of the Jewish community in East London, bringing the stories and memories of this vanishing landscape to new audiences.
-- name: Newham Youth Map
-  link: https://www.newhamyouthmap.co.uk
-  thumbnail: /assets/img/newham-front-page-image.jpg
-  strapline: Created in partnership with the London Borough of Newham Youth Empowerment Services, the Newham Youth Map is a map of places and resources in the borough important to young people, created by young people themselves. 
-- name: European Literary London&#58; A Map
-  link: https://www.inspiring-minds-map.org
-  thumbnail: /assets/img/eurolitlon.jpg
+- name: City of Women London
+  link: https://www.cityofwomenlondon.org/
+  thumbnail: /assets/img/city-of-women-london.png
+  strapline: Created in partnership with Haymarket Books and Transport for London.
+- name: "Lost and Found: A European Literary Map of London"
+  link: https://www.europeanliterarylondon.org/
+  thumbnail: /assets/img/lost-and-found.png
   strapline: Curated by the University College London European Institute, this map documents places in London in European literature, music, and film.
